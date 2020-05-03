@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "network-alert": [
+        "dist/network-alert"
+      ],
+      "network-alert/*": [
+        "dist/network-alert/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

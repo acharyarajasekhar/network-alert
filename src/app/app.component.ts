@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NetworkAlertService } from 'projects/network-alert/src/public-api';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'network-alert-demo';
+
+  constructor(private networkAlert: NetworkAlertService) { }
+
+  showAlert() {
+    this.networkAlert.show();
+    setTimeout(() => this.networkAlert.hide(), 2000);
+  }
 }

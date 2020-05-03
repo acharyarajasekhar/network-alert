@@ -1,0 +1,16 @@
+{
+  "name": "@acharyarajasekhar/network-alert",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@acharyarajasekhar/dynamic-dom-injector": "^1.0.0",
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/acharyarajasekhar/network-alert.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
