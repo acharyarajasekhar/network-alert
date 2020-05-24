@@ -10,7 +10,8 @@
     "e2e": "ng e2e"
   },
   "private": true,
-  "dependencies": {    
+  "dependencies": {
+    "@acharyarajasekhar/dynamic-dom-injector": "^1.0.0",
     "@angular/animations": "~8.2.11",
     "@angular/common": "~8.2.11",
     "@angular/compiler": "~8.2.11",

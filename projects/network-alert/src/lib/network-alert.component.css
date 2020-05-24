@@ -47,14 +47,6 @@
     padding-bottom: 0px;
 }
 
-.icon {
-    margin-top: 0px;
-    display: inline-block;
-    width: 70px;
-    height: 70px;
-    background-size: cover;
-  }
-  
-  .icon-cloud-off {
-    background-image: url(./cloud-off.svg);
-  }
+#alert-icon {
+    font-size: 3em;
+}

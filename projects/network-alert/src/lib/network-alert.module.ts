@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { NetworkAlertComponent } from './network-alert.component';
 import { DynamicDomInjectorModule } from '@acharyarajasekhar/dynamic-dom-injector';
 import { CommonModule } from '@angular/common';
@@ -10,6 +10,7 @@ import { CommonModule } from '@angular/common';
     DynamicDomInjectorModule
   ],
   exports: [NetworkAlertComponent],
-  entryComponents: [NetworkAlertComponent]
+  entryComponents: [NetworkAlertComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class NetworkAlertModule { }

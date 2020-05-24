@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NetworkAlertService } from 'projects/network-alert/src/public-api';
+import { NetworkService } from 'projects/network-alert/src/lib/network.service';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +9,21 @@ import { NetworkAlertService } from 'projects/network-alert/src/public-api';
 })
 export class AppComponent {
 
-  constructor(private networkAlert: NetworkAlertService) { }
+  constructor(
+    private networkAlert: NetworkAlertService,
+    private networkService: NetworkService
+  ) {
+
+    this.networkService.onlineChanges.subscribe(isOnline => {
+      if (isOnline) {
+        this.networkAlert.hide();
+      }
+      else {
+        this.networkAlert.show();
+      }
+    })
+
+  }
 
   showAlert() {
     this.networkAlert.show();

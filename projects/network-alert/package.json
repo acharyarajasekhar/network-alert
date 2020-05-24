@@ -1,6 +1,6 @@
 {
   "name": "@acharyarajasekhar/network-alert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "peerDependencies": {
     "@acharyarajasekhar/dynamic-dom-injector": "^1.0.0",
     "@angular/common": "^8.2.14",
