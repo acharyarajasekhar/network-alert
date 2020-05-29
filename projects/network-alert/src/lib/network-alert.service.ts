@@ -9,7 +9,7 @@ export class NetworkAlertService {
 
   private compRef: any;
     private options: any = {
-        icon: '',
+        icon: 'cloud-offline-outline',
         bdColor: "rgba(0, 0, 0, 0.5)",
         bgColor: '#fff',
         color: '#000',

@@ -7,7 +7,7 @@
     width: 250px;
     border-radius: 10px;
     background-color: rgba(89, 40, 177, 1);
-    color: white;
+    color: white; 
 }
 
 .alert-black-overlay {
@@ -34,19 +34,13 @@
     font-size: 1.4rem;
 }
 
-#alertIcon {
+#alert-icon {
+    font-size: 3em;
     font-size: 2em;
     padding: 10px;
     padding-bottom: 0px;
 }
 
-.iconstyle {
-    width: 50px;
-    margin: auto;
-    padding: 10px;
-    padding-bottom: 0px;
-}
-
-#alert-icon {
-    font-size: 3em;
+.messagestyle {
+    margin-top: 0px;
 }

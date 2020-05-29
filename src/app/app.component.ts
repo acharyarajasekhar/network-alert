@@ -27,6 +27,6 @@ export class AppComponent {
 
   showAlert() {
     this.networkAlert.show();
-    setTimeout(() => this.networkAlert.hide(), 2000);
+    //setTimeout(() => this.networkAlert.hide(), 2000);
   }
 }

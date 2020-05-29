@@ -2,7 +2,6 @@
   <div class="alert-content" [ngStyle]="{ 'background-color': bgColor, 'color': color }">
     <ion-icon [name]="icon" id="alert-icon"></ion-icon>
     <p *ngIf="message" class="messagestyle" [style.color]="color">
-      <span class="icon icon-cloud-off"></span><br />
       {{ message }}
     </p>
   </div>

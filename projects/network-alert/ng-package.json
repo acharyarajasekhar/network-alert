@@ -4,7 +4,8 @@
   "lib": {
     "entryFile": "src/public-api.ts",
     "umdModuleIds": {
-      "@acharyarajasekhar/dynamic-dom-injector": "@acharyarajasekhar/dynamic-dom-injector"
+      "@acharyarajasekhar/dynamic-dom-injector": "@acharyarajasekhar/dynamic-dom-injector",
+      "@ionic/angular": "@ionic/angular"
     }
   }
 }
